@@ -96,7 +96,7 @@
   <nav class="navbar sticky-top">
     <div class="container d-flex justify-content-between align-items-center">
       <img src="iconos/secretaria.png" class="logo-nav" />
-      <img src="iconos/mrg3.png" id="btn-admin-logo" class="logo-nav" />
+      <img src="iconos/mrg3.png" id="btnupdate" class="logo-nav" />
       <img id="btnApagar" src="iconos/inah.png" class="logo-nav" />
     </div>
   </nav>
@@ -147,7 +147,7 @@
     <div class="col-2">
       <div class="row">
         <button class="btn btn-lg btn-warning" id="btnGrupos">
-          Registrar Grupos <span style="color: #0086fb;">Register Groups</span>
+          Registrar Grupos <span style="color: #064379;">Register Groups</span>
         </button>
       </div>
       <!--
@@ -299,6 +299,16 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/firebase-app.js"></script>
   <script src="js/firebase-firestore.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btnUpdate").click(function(){
+                $.post("update.php", { update: true }, function(data){
+                    alert(data);       // muestra mensaje
+                    location.reload(); // recarga la página
+                });
+            });
+        });
+    </script>
   <script>
     document
       .getElementById("btnApagar")

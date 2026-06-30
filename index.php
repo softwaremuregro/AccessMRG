@@ -96,7 +96,7 @@
   <nav class="navbar sticky-top">
     <div class="container d-flex justify-content-between align-items-center">
       <img src="iconos/secretaria.png" class="logo-nav" />
-      <img src="iconos/mrg3.png" id="btnupdate" class="logo-nav" />
+      <img src="iconos/mrg3.png" id="btnUpdate" class="logo-nav" />
       <img id="btnApagar" src="iconos/inah.png" class="logo-nav" />
     </div>
   </nav>

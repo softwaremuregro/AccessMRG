@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Registro de Visitantes - Museo Regional de Guerrero</title>
+  <title>Registro de Visitantes</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <meta name="theme-color" content="#000000" />
 

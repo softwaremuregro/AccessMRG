@@ -1,5 +1,5 @@
 <?php
-$repoPath = "C:\\xampp\\htdocs\\repositorio"; 
+$repoPath = "C:\\xampp\\htdocs\\accessmrg"; // Cambia esto a la ruta de tu repositorio local
 
 if (isset($_POST['update'])) {
     $command = "cd $repoPath && git pull";
